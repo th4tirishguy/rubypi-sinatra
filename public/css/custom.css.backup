@@ -1,0 +1,113 @@
+body {
+	font-family: "Lato";
+	font-size: 1.2em;
+	font-weight: 400;
+	min-width: 806px;
+	box-sizing: border-box;
+}
+header.navigation {
+	height: 45px;
+	background-color: #404040;
+}
+header.navigation div.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0px 10px 0px 10px;
+}
+header.navigation div.container ul li {
+	display: inline-block;
+	line-height: 40px;
+	padding-right: 35px;
+}
+header.navigation div.container ul li:last-child {
+	padding-right: 0px;
+}
+header.navigation div.container ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+header.navigation div.container ul li a:visited {
+	color: #fff;
+}
+div.banner {
+	height: 160px;
+	background-color: #E74C3C;
+}
+div.banner div.container {
+	max-width: 1080px;
+	padding: 0px 10px 0px 10px;
+	margin: 0 auto;
+}
+div.banner div.container h1 {
+	max-width: 25%;
+	font-size: 3em;
+	color: #fff;
+	line-height: 160px;
+	float: left;
+}
+div.banner div.container p {
+	max-width: 75%;
+	float: left;
+	line-height: 160px;
+	color: #fff;
+	padding-left: 35px;
+	font-weight: 300;
+}
+div.page {
+	background-color: #fffef5;
+}
+div.page div.container {
+	max-width: 1080px;
+	padding: 35px 60px 35px 100px;
+	margin: 0 auto;
+}
+/*div.page div.container div.content {
+	padding: 5px;
+	width: 60%;
+}*/
+div.page div.container div.content section {
+	width: 60%;
+	padding: 20px 10px 20px 10px;
+}
+div.page div.container div.content section article h2, h1 {
+	font-size: 1.6em;
+	font-weight: 700;
+	color: #3c3c3c;
+	padding-bottom: 15px;
+}
+div.page div.container div.content section article h2 a {
+	text-decoration: none;
+	color: #3c3c3c;
+}
+div.page div.container div.content section article h2 a:visited {
+	text-decoration: none;
+	color: #3c3c3c;
+}
+div.page div.container div.content section article p {
+	font-size: 0.9em;
+	font-weight: 300;
+	color: #a0a0a0;
+}
+div.page div.container div.content section article p.post-body {
+	font-size: 1em;
+	font-weight: 400;
+	color: #3c3c3c;
+	padding: 25px 0px 25px 0px;
+	background-color: #fff;
+}
+div.page div.container div.content section div.divider {
+	margin: 25px 0px 25px 0px;
+	height: 5px;
+	width: 100%;
+	background-color: #e4e4e4;
+}
+footer {
+	background-color: #404040;
+
+	padding: 35px 10px 35px 10px;
+	color: #fff;
+}
+footer div.container {
+	max-width: 1080px;
+	margin: 0 auto;
+}

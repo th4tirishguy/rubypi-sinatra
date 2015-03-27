@@ -1,0 +1,10 @@
+<% @posts.each do |p| %>
+	<section>
+		<article>
+			<h2><a href="/p/<%= p.url %>"><%= p.title %></a></h2>
+			<p>Posted on: <%= p.created_at %></p>
+		</article>
+		<div class="divider">
+		</div>
+	</section>
+<% end %>
